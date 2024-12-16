@@ -1,0 +1,45 @@
+.subBackground {
+    background-image: url('pattern.jpg');
+    background-size:contain;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.subHeader {
+    position: sticky;
+    top: 0;
+    background-color: var(--kBlue);
+    width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
+    margin-bottom: 2rem;
+    outline: 0.2rem solid var(--my-black);
+}
+
+.bigMssg {
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    padding: 10rem;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 7.5rem;
+    text-align: center;
+    padding-top: 0rem;
+    margin: 0.5rem auto 0rem auto;
+}
+
+.dataContainer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.listFont {
+    font-size: 1.5rem;
+    text-align: left;
+    list-style-position: inside;
+}

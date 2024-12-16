@@ -1,0 +1,66 @@
+.card {
+    border: 0.2rem solid var(--my-black);
+    border-radius: 20px;
+    margin: 1.5rem auto auto auto;
+    padding-bottom: 1rem;
+    width: 75%;
+    background-color: rgba(var(--milk-white-RGB), 0.9);
+}
+
+.cardHeader {
+    display: flex;
+    padding: 1rem 1rem 0rem 1rem;
+    width: 95%;
+}
+
+#cardButton {
+    border-radius: 15px;
+    margin-left: auto;
+
+    background-color: var(--check-green);
+    color: var(--milk-white);
+    font-size: 2rem;
+
+    width: max-content;
+    height: fit-content;
+}
+
+#cardButton:active {
+    background-color: gainsboro;
+    color: var(--my-black);
+    transform: scale(0.9);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: 0.5rem;
+}
+
+.cardSubtitle {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin: 0.3rem auto 0.1rem auto;
+}
+
+.cardXtraInfo {
+    display: block;
+    text-align: left;
+    align-self: self-end;
+    flex: 1;
+    padding-bottom: 2rem;
+}
+
+.cardXtraInfoFont {
+    font-size: 1.25rem;
+    margin: 0.1rem 0rem 0.1rem 0rem;
+    padding: 0.2rem 0rem 0.2rem 0rem;
+}
+
+.cardFooterFont {
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    display: block;
+}

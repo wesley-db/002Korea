@@ -1,0 +1,26 @@
+.table {
+    width: 80%;
+    border: 0.5rem double var(--my-black);
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tableDefaultFont {
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+table, td, th {
+    border: 0.2rem double var(--my-black);
+}
+
+th {
+    background-color: var(--my-black);
+    color: var(--milk-white);
+    border: 0.2rem double var(--milk-white);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(var(--grey-RGB),0.6);
+}

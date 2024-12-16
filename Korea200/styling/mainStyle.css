@@ -1,0 +1,98 @@
+html {
+    font-size: 2vmin;
+    --grey-RGB: 214, 224, 239;
+    --milk-white: #FEFCFF;
+    --milk-white-RGB: 254,252,255;
+    --my-black: #111810;
+    --blood-red: #f1c1c5;
+    --midnight: #2e2ed1;
+    --kBlue: #0f64cd;
+    --check-green: #189000;
+    height: 100%;
+}
+
+.mainBackground {
+    background-image: url('homeBackground1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.mainTitleFont {
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 10rem;
+    text-align: center;
+    color: var(--milk-white);
+    text-shadow: 0.8rem 0.8rem var(--my-black);
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.headerDefaultFont {
+    font-size: 2.5rem;
+    font-family: cursive;
+    color: var(--blood-red);
+    text-shadow: 0.2rem 0.2rem var(--midnight);
+    padding: 0rem 1.5rem 0.5rem 1.5rem;
+}
+
+.headerDefaultFont:hover {
+    transform: scale(0.9);
+}
+
+.inputDefault {
+    border-radius: 25px;
+    font-size: 2rem;
+    height: 3.2rem;
+}
+
+.defaultHeader {
+    width: 100%;
+    overflow: hidden;
+}
+
+.defaultHomeLink {
+    float: left;
+}
+
+.defaultSaveLink {
+    float: right;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+
+.defaultTextBar {
+    width: 60%;
+    text-align: center;
+    margin-right: 1.5%;
+}
+
+.defaultButton {
+    width: 20%;
+    background-color: var(--my-black);
+    color: var(--milk-white);
+}
+
+.defaultButton:active {
+    background-color: gainsboro;
+    color: var(--my-black);
+    transform: scale(0.9);
+}
+
+body {
+    text-align: center;
+    margin: 0%;
+}
+
+form {
+    border-radius: 25 px;
+    padding-top: 0.01%;
+    margin-top: 0.01%;
+}
+
+#name {
+    display: none;
+    visibility: hidden;
+}
